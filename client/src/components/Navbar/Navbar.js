@@ -77,12 +77,12 @@ const Navbar = ({ totalItems, handleEmptyCart }) => {
                     {user || admin ? (
                         <Typography variant="h6" className={classes.title} color="inherit">
                         <img src={logo} alt="power.js" height="25px" className={classes.image}/>
-                        Power.js
+                        Daniel.js
                     </Typography>
                     ) : (
                         <Typography component={Link} to='/' variant="h6" className={classes.title} color="inherit">
                         <img src={logo} alt="power.js" height="25px" className={classes.image}/>
-                        Power.js
+                        Daniel.js
                     </Typography>
                     )}
                     <div className={classes.grow} />
@@ -134,3 +134,5 @@ const Navbar = ({ totalItems, handleEmptyCart }) => {
 }
 
 export default Navbar
+
+

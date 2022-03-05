@@ -1,7 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
+import { Height } from '@material-ui/icons';
 
 export default makeStyles((theme) => ({
   dialogWrapper: {
+    width: '940px',
+    Height: '400px'
   },
   flexSpaceBetween: {
     display: "flex", 

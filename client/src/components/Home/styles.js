@@ -14,16 +14,16 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(8, '4%'),
   },
   box2: {
-    padding: theme.spacing(6, '2%', 0, '2%'),
+    padding: theme.spacing(6, '0', 0, '0'),
   },
   grid2: {
     padding: theme.spacing(4, 0),
   },
   lostImg: {
-    padding: theme.spacing(1),
-    marginRight: theme.spacing(6),
-    border: '1px solid #ccc',
-    borderRadius: '5%',
+    padding: theme.spacing(1, 0),
+    // marginRight: theme.spacing(6),
+    // border: '1px solid #ccc',
+    // borderRadius: '5%',
     [theme.breakpoints.up('lg')]: {
       height: '270px',
     },

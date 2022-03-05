@@ -3,10 +3,10 @@ import { Typography, Grid, Box, Button } from '@material-ui/core';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import { Link } from 'react-router-dom';
 
-import business from '../../images/business.png';
-import chart from '../../images/chart.png';
-import logo from '../../images/logo.png';
-import lego from '../../images/lego.png';
+import business from '../../images/jeep-grand-cherokee-5d-weiss-2018.png';
+import chart from '../../images/land-rover-range-rover-sport-svr-blau-2020.png';
+import logo from '../../images/dodge-challenger-2d-orange-2021.png';
+import lego from '../../images/toyota-tundra-dcab-blau-2019.png';
 import bar from '../../images/bar.png';
 import puzzle from '../../images/puzzle.png';
 import cart from '../../images/cart.png';
@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <>
-            <Grid className={classes.content} container justifyContent="space-between" alignItems="stretch" spacing={3} maxWidth="lg">
+            <Grid className={classes.content} container alignItems="stretch" spacing={3} maxWidth="lg">
                 <Grid item xs={12} md={6}>
                     <Grid>
                         <Box className={classes.box1}>
